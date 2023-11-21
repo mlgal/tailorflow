@@ -9,7 +9,7 @@ logo_width = "152px"
 # if logo_webp set false, will not generate WEBP version of logo | default is true
 logo_webp = true
 # logo text will only show when logo is missing.
-logo_text = "CustomFlow"
+logo_text = "TailorFlow"
 # purgeCSS
 purge_css = true
 
@@ -28,14 +28,14 @@ custom_script = ""
 
 # copyright
 theme_copyright = false
-copyright = "Copyright by CustomFlow 2023" # also change copyright in language.toml file
+copyright = "Copyright by TailorFlow 2023" # also change copyright in language.toml file
 
 # Preloader
 [preloader]
 enable = false
 preloader = "images/preloader.png" # use jpg, png, svg or gif format.
 greetings = "Welcome to"
-greetings_to = "CustomFlow"
+greetings_to = "TailorFlow"
 
 # Navigation button
 [navigation_button_bordered]
@@ -79,9 +79,9 @@ enableQQ = false # https://valine.js.org/en/configuration.html#enableQQ
 
 # seo meta data for OpenGraph / Twitter Card
 [metadata]
-keywords = ["CustomFlow", "Order Management", "Pick and Pack", "Fulfillment Software"]
+keywords = ["TailorFlow", "Order Management", "Pick and Pack", "Fulfillment Software"]
 description = "Your Food Order Management! Your Way!"
-author = "CustomFlow"
+author = "TailorFlow"
 image = "images/logo.png"                                       # this image will be used as fallback if a page has no image of its own
 
 # matomo tracking: see https://matomo.org/

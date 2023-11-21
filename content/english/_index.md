@@ -3,7 +3,7 @@
 banner:
   enable : true
   title : "Fulfill Your Food Orders, **Your Way!**"
-  content : "Welcome to CustomFlow: Where culinary excellence meets **order fulfillment customization**. Elevate your **food e-comm business** with the power of **tailored solutions**. Say goodbye to one-size-fits-all solutions. CustomFlow allows you to **customize every aspect** of your order management system, from input preferences to output specifications. Seamlessly adapt your workflow to match your unique business needs, enhancing efficiency and accuracy like never before. Embrace the future of order management with CustomFlow, where flexibility meets precision."
+  content : "Welcome to TailorFlow: Where culinary excellence meets **order fulfillment customization**. Elevate your **food e-comm business** with the power of **tailored solutions**. Say goodbye to one-size-fits-all solutions. TailorFlow allows you to **customize every aspect** of your order management system, from input preferences to output specifications. Seamlessly adapt your workflow to match your unique business needs, enhancing efficiency and accuracy like never before. Embrace the future of order management with TailorFlow, where flexibility meets precision."
   image : "images/screenshots/banner-shot.png"
   video:
     enable : false
@@ -43,13 +43,13 @@ clients_logo_slider:
 ########################## Benefits #########################
 benifits:
   enable : true
-  title : "Benifits Of **CustomFlow**"
-  content : "We empower businesses with a state-of-the-art order fulfillment management solution that delivers tangible benefits. Our software is designed to streamline your operations and supercharge your business growth. Here are the key benefits of choosing CustomFlow:"
+  title : "Benifits Of **TailorFlow**"
+  content : "We empower businesses with a state-of-the-art order fulfillment management solution that delivers tangible benefits. Our software is designed to streamline your operations and supercharge your business growth. Here are the key benefits of choosing TailorFlow:"
   item:
 
   - name : "Unparalleled <br>Customization"
     icon : "fas fa-pencil-alt"
-    content : "Tailor your order management system to align perfectly with your unique business requirements. During onboarding, you can  configure your entire pipeline from  input configurations to packing list formats. CustomFlow puts you in control, ensuring a personalized and efficient workflow."
+    content : "Tailor your order management system to align perfectly with your unique business requirements. During onboarding, you can  configure your entire pipeline from  input configurations to packing list formats. TailorFlow puts you in control, ensuring a personalized and efficient workflow."
 
   - name : "Efficient Pick & <br>Pack Lists"
     icon : "far fa-list-alt"
@@ -65,7 +65,7 @@ benifits:
 
   - name : "Seamless Integrations"
     icon : "fas fa-link"
-    content : "Connect your e-commerce platform, shipping carriers effortlessly. CustomFlow integrates with a wide range of systems, ensuring a smooth flow of data and information, reducing manual data entry and errors. "
+    content : "Connect your e-commerce platform, shipping carriers effortlessly. TailorFlow integrates with a wide range of systems, ensuring a smooth flow of data and information, reducing manual data entry and errors. "
 
   - name : "Data-Driven Insights"
     icon : "far fa-chart-bar"
@@ -77,13 +77,13 @@ benifits:
 homepage_tab:
   enable : true
   title : "How **it Works**"
-  content : "Are you tired of the chaos that comes with managing orders, inventory, and shipping processes? CustomFlow is here to streamline your operations, transform your customer experience, and supercharge your business growth."
+  content : "Are you tired of the chaos that comes with managing orders, inventory, and shipping processes? TailorFlow is here to streamline your operations, transform your customer experience, and supercharge your business growth."
   tablist:
   # tab item
   - name : "Onboarding"
     title : "**Onboarding**"
     image : "images/screenshots/how-it-works-1.jpg"
-    content : "Your CustomFlow journey begins with a **personalized** engagement. Our team reaches out to understand your unique business requirements, ensuring a **tailored approach to your onboarding**. Enjoy a dedicated configuration where our experts help define your workflows, set preferences, and configure the system to align perfectly with your business processes. This is followed by **Training and Familiarization** to ensure that your staff is well-equipped to **fully optimize** your operations."
+    content : "Your TailorFlow journey begins with a **personalized** engagement. Our team reaches out to understand your unique business requirements, ensuring a **tailored approach to your onboarding**. Enjoy a dedicated configuration where our experts help define your workflows, set preferences, and configure the system to align perfectly with your business processes. This is followed by **Training and Familiarization** to ensure that your staff is well-equipped to **fully optimize** your operations."
     button:
       enable : true
       label : "Sign Up"
@@ -92,7 +92,7 @@ homepage_tab:
   - name : "Order Processing"
     title : "Order **Processing**"
     image : "images/screenshots/how-it-works-1.jpg"
-    content : "When an order is placed, CustomFlow automatically captures the details and processes them according to **your preferences**. It verifies product availability in real-time, ensuring that the item is in stock before proceeding."
+    content : "When an order is placed, TailorFlow automatically captures the details and processes them according to **your preferences**. It verifies product availability in real-time, ensuring that the item is in stock before proceeding."
     button:
       enable : true
       label : "Sign Up"
@@ -112,7 +112,7 @@ homepage_tab:
   - name : "Shipping and Tracking"
     title : "Shipping and Tracking"
     image : "images/screenshots/04.png"
-    content : "CustomFlow integrates with shipping carriers to provide shipping options and generate labels automatically. It sends tracking information to customers, allowing them to monitor their orders' progress."
+    content : "TailorFlow integrates with shipping carriers to provide shipping options and generate labels automatically. It sends tracking information to customers, allowing them to monitor their orders' progress."
     button:
       enable : true
       label : "Sign Up"
@@ -133,7 +133,7 @@ homepage_tab:
 tools:
   enable : true
   title : "Integration with the major e-commerce "
-  content : "Seamless integration with popular e-commerce platforms allows for automatic order syncing, inventory updates, and streamlined communication between your online store and CustomFlow."
+  content : "Seamless integration with popular e-commerce platforms allows for automatic order syncing, inventory updates, and streamlined communication between your online store and TailorFlow."
   logos:
   - "images/tools/woocommerce-logo-color-black.png"
   - "images/tools/Shopify-Logo.png"
@@ -202,7 +202,7 @@ about_us:
 testimonial:
   enable : true
   title : "What **They say**"
-  content : "Discover the success stories. At CustomFlow, we take pride in the partnerships we've forged with businesses seeking to fully optimize their order management processes"
+  content : "Discover the success stories. At TailorFlow, we take pride in the partnerships we've forged with businesses seeking to fully optimize their order management processes"
   button:
     enable : false
     label : "View All Testimonials"
@@ -212,6 +212,6 @@ testimonial:
   - name : "Tom Pinder"
     image : "images/testimonials/tom.jpg"
     designation : "Director, The Welsh Cheese Company"
-    content : "Without CustomFlow we would not be able to manage our daily orders. They save us money, time and offer a reliable and customizable way to fulfil our orders!"
+    content : "Without TailorFlow we would not be able to manage our daily orders. They save us money, time and offer a reliable and customizable way to fulfil our orders!"
 
 ---

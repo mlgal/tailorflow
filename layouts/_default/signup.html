@@ -1,0 +1,63 @@
+{{ define "main" }}
+{{ $data := index site.Data site.Language.Lang }}
+
+<!-- start of services-section -->
+<section class="section-padding" data-aos="fade-in" data-aos-delay="150">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 col-md-9 text-center mb-40">
+        <div class="content">{{ .Content }}</div>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-6 col-md-9 mb-40">
+        <!-- modify this form HTML and place wherever you want your form -->
+        {{with .Params.form }}
+        <form
+          action={{.form_action}}
+          method="POST"
+          class="needs-validation mt-30" novalidate>
+          <div class="form-group mb-20 col-md-12">
+            <label class="h6 font-weight-600 mb-2" for="fname">Name*</label>
+            <input class="form-control shadow-none" type="text" name="name" placeholder="Jack Doe" id="fname" required>
+            <p class="font-weight-bold invalid-feedback">Your first name is required!</p>
+          </div>
+          <div class="form-group mb-20 col-12">
+            <label class="h6 font-weight-600 mb-2" for="email2">Email Address*</label>
+            <input class="form-control shadow-none" type="email" name="_replyto" placeholder="name@email.com" id="email2" required>
+            <p class="font-weight-bold invalid-feedback">Your email is required!</p>
+          </div>
+          <div class="form-group col-12">
+            <button class="btn btn-primary w-100" type="submit">{{ .button_label }}</button>
+          </div>
+        </form>
+      {{ end }}
+      </div>
+    </div>
+
+
+    <!-- Render Services -->
+    <div class="row g-0">
+      {{ range .Params.services }}
+      <div class="col-lg-4 col-md-6 service-box">
+        <div class="block p-4 p-xl-5 text-center">
+          <div class="service-icon text-center mx-auto rounded-circle">
+            <i class="{{.icon}}"></i>
+          </div>
+          <h3 class="font-weight-600 mt-20 mb-20">{{ .name | markdownify }}</h3>
+          <p>{{ .content | markdownify }}</p>
+        </div>
+      </div>
+      {{ end }}
+      <div class="col-12">
+        <div class="border-bottom border-md-0"></div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end of services-section -->
+
+{{partial "components/testimonial.html" . }}
+
+{{ end }}

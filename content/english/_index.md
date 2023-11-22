@@ -87,7 +87,7 @@ homepage_tab:
     button:
       enable : true
       label : "Sign Up"
-      link : "how-it-works"
+      link : "contact"
 
   - name : "Order Processing"
     title : "Order **Processing**"
@@ -96,7 +96,7 @@ homepage_tab:
     button:
       enable : true
       label : "Sign Up"
-      link : "how-it-works"
+      link : "contact"
 
   # tab item
   - name : "Picking & Packing"
@@ -106,7 +106,7 @@ homepage_tab:
     button:
       enable : true
       label : "Sign Up"
-      link : "how-it-works"
+      link : "contact"
 
   # tab item
   - name : "Shipping and Tracking"
@@ -116,7 +116,7 @@ homepage_tab:
     button:
       enable : true
       label : "Sign Up"
-      link : "how-it-works"
+      link : "contact"
 
   # tab item
   - name : "Inventory Management"
@@ -126,7 +126,7 @@ homepage_tab:
     button:
       enable : true
       label : "Sign Up"
-      link : "how-it-works"
+      link : "contact"
 
 
 ############################## Tools in Use ########################

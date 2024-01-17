@@ -1,9 +1,9 @@
 ---
 title : "Blog"
-description : "this is meta description"
+description : "All you need to know for efficient order fulfillment"
 draft : false
 ---
 
-## Find A **Source Of Knowledge**
+## Efficient order fulfillment. **Your Way!**
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed.
+Stay tuned for the latest in order fulfilment tailored to you!

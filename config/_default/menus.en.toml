@@ -13,7 +13,7 @@ weight = 1
 [[main]]
 name = "Pricing"
 url = "pricing/"
-weight = 3
+weight = 2
 
 # [[main]]
 # name = "Services"
@@ -25,10 +25,10 @@ weight = 3
 # url = "team/"
 # weight = 4
 #
-# [[main]]
-# name = "Blog"
-# url = "blog/"
-# weight = 5
+[[main]]
+name = "Blog"
+url = "blog/"
+weight = 3
 
 [[main]]
 name = "Contact"
@@ -86,7 +86,7 @@ weight = 1
 # url = "terms-conditions/"
 # weight = 2
 #
-# [[footer]]
-# name = "Privacy Policy"
-# url = "privacy-policy/"
-# weight = 3
+[[footer]]
+name = "Privacy Policy"
+url = "privacy-policy/"
+weight = 3

@@ -76,10 +76,10 @@ weight = 4
 #   url = "changelog/"
 
 # Footer menu
-[[footer]]
-name = "Faq"
-url = "faq/"
-weight = 1
+# [[footer]]
+# name = "Faq"
+# url = "faq/"
+# weight = 1
 
 # [[footer]]
 # name = "Terms & Conditions"

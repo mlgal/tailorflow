@@ -1,6 +1,6 @@
 ---
 title : "Logistical Challenges in Direct to Consumer (DTC)"
-image : "images/blogs/02.jpg"
+image : "images/blogs/logistics.jpg"
 date: 2024-01-16T15:40:24+06:00
 author: "oseph Serrie"
 author_profile: "https://www.linkedin.com/in/joe-s-88b758216/#"
